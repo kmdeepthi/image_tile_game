@@ -1,9 +1,9 @@
 export const updateRowCol = (rowLength, colLength, tileWidth, tileHeight) => {
   return {
     type: 'UPDATE_ROW_COL',
-    rowLength, 
-    colLength, 
-    tileWidth, 
+    rowLength,
+    colLength,
+    tileWidth,
     tileHeight
   };
 }
@@ -11,9 +11,9 @@ export const updateRowCol = (rowLength, colLength, tileWidth, tileHeight) => {
 export const image_selected = (isImageSelected, url, width, height) => {
   return {
     type: 'IMAGE_SELECTED',
-    isImageSelected, 
-    url, 
-    width, 
+    isImageSelected,
+    url,
+    width,
     height
   };
 }
